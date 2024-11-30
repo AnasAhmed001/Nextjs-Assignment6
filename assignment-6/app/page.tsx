@@ -9,26 +9,10 @@ import logo from "../public/images/Ddsgnr Library.png"
 const page = () => {
   return (
     <>
-      <div className="w-[1289px] h-[54px] border-black border-[1px] top-[100px] left-[100px] ">
-        <div className="pt-3 pb-3 gap-8 flex justify-between ml-9 mr-9">
-          <div className="gap-4 leading-[21px]">
-            <p className="font-normal text-[14px] ">
-              Phone Number: 956 742 455 678 | Email:info@ddsgnr.com
-            </p>
-          </div>
-          <div className="flex flex-row gap-3 ">
-            <FaFacebookF />
-            <FaInstagram />
-            <FaTwitter />
-            <FaLinkedin />
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <Image src={logo} width={130.6} height={41} alt="logo"></Image>
-        </div>
+      <div className="h-[72px] w-[428px] border-b-[1px] border-black pr-6 pl-6">
+        <div className="pb-7 pt-7">
+          <Image src={logo} height={41} width={131} alt="Logo"></Image>
+        </div>  
       </div>
     </>
   );
